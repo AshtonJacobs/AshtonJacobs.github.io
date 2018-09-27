@@ -1,39 +1,87 @@
 <!DOCTYPE html>
+
 <html>
+
   <head>
     <meta charset="utf-8" />
-    <link href="screen.css" media="screen" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="screen.css" media="screen" type="text/css" />
     <title>Ashton Jacobs's Portfolio</title>
   </head>
+
   <body>
-    <div style="Background-color:tan; padding:2px;"><h1 align="center">Ashton's Personal Portfolio</h1>
-      <hr span style="color:black;"/>
-      <hr span style="color:black;" width="85%" align="center"/>
-    </div>
-    <br/> 
 
-    <h2>About Me:</h2>
-    <hr>
-    <hr width="85%" align="left"/>
-    <p>My name is <b>Ashton Jacobs</b>, and I'm a nerd who aspires towards learning more about computers. My goal one day is to 
-      major in <i>Computer Science</i>, specifically in the branch of <i>Cyber Security</i> where I hope to become a skilled 
-      <b>Ethical</b> (Or White Hat) <b>Hacker</b>.<br/>With this main goal in mind, I've been taking many steps to work towards
-      the best possible future of this career such as:</p>
-    <ul>
-      <li>Learning Programming Languages</li>
-      <li>Researching Career Paths</li>
-      <li>Applying Findings</li>
-      <li>And Challenging Myself to Keep Doing What I Love</li>
-    </ul>
-    <p>In the end, I love learning and I'm always seeking to improve, and I feel as though that's one of the reasons why it's 
-      hard for me to give up on any of this</p>
+    <!-- Header/Image Section -->
+		<div id="header" class="section" style=border-color:#efefef;>
+		    <img alt="" class="img-circle" src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.2DPWK5lrndLb3_KvdB0wxgAAAA%26pid%3D15.1">
+		    <p>Ashton Jacobs</p>
+		</div>
+		<!-- End Header/Image Section -->
+		
+		<!-- About Me -->
+		<div class="section">
+		    <h1><span>Get To Know Me</span></h1>
+		    <p class="intro">
+            My name is <b>Ashton Jacobs</b>, and it's nice to meet you! I am a student at <u>COCC</u> hoping to major in Computer 
+            Science; or Ethical Hacking/Cyber Security to be more specific. I enjoy learning and I'm quick at it too. I enjoy some 
+            free time activities other than school such as gaming, playing piano, more learning, and more. All in all, I live a 
+            fun and stable life, and I'm always working towards living a similar goal in the future.
+		    </p>
+		</div> 
+		<!-- End About Me -->
+		
+		<!-- Classes and Skils -->
+		<div class="section">
+		    <h1><span>My Classes and Skills</span></h1>
+		    <p>This term, I am/will be taking:</p>
+		    <ul>
+		        <li>Career Planning</li>
+		        <li>College Trigonometry</li>
+		        <li>And Computer Science Orientation</li>
+		    </ul>
+		    <p>I already posess some skills in coding in a few languages such as:</p>
+		    <ul class="skills">
+                <li>HTML <br />
+                    <progress min="0" max="100" value="80"></progress>
+                </li>
+                <li>JavaScript <br />
+                    <progress min="0" max="100" value="44"></progress>
+                </li>
+                <li>Python <br />
+                    <progress min="0" max="100" value="20"></progress>
+                </li>
+            </ul>
+		</div>
+		<!--End Classes and Skills-->
+		
+		<!-- Contact Me Section -->
+		<div class="section">
+            <h1><span>Contact Me</span></h1>
+            <form>
+                <input name="name" placeholder="Name" type="text" required /><br/>
+                <input name="email" placeholder="Email" type="email" required /><br/>
+                <textarea name="message" placeholder="Message" required ></textarea>
+                <input type="submit" value="SEND" class="submit" />
+            </form>
+        </div>
+        <div class="section" id="contacts">
+            <h1><span>You Can Find Me At These</span></h1>
+            <div>
+                <a href="https://www.sololearn.com/" target="_blank">
+                    <img alt="SoloLearn" src="https://www.sololearn.com/Uploads/icons/sololearn.png" />
+                </a>
+                <a href="#">
+                    <img alt="Facebook" src="https://www.sololearn.com/Uploads/icons/facebook.png"/>
+                </a>
+            </div>
+        </div>
+        <!-- Contacts section end -->
+        
+        <!-- Copyright -->
+        <div class="copyright">
+            &copy; 2018 Ashton Jacobs's Portfolia. All rights reserved.
+        </div>
+        <!-- End Copyright-->
 
-    
-
-
-
-
-
-
+        <!-- END WEBSITE-->
   </body>
 </html>
