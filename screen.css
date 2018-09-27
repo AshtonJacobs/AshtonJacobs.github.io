@@ -92,14 +92,6 @@ progress{
    padding: 10px;
 }
 
-progress {
- color: #008080;
-}
-
-progress::-webkit-progress-value {
- background: #008080;
-}
-
 progress::-moz-progress-bar {
  background: #008080;
 }
