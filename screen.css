@@ -44,6 +44,34 @@ p {
    padding: 0;
    margin: 0;
 }
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+      
+li .active {
+  background-color: #008080;
+  color: white;
+}
+      
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+ul .navigation{
+  list-style-type:none; 
+  margin: 0; 
+  padding: 0; 
+  width: 25%; 
+  background-color:#efefef; 
+  position: fixed; 
+  height: 100%; 
+  overflow: auto;
+}
+
 .img-circle {
    border: 3px solid white;
    border-radius: 50%;
