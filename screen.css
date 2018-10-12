@@ -44,6 +44,9 @@ p {
    padding: 0;
    margin: 0;
 }
+b {
+  font-weight: bold
+}
 li a {
   display: block;
   color: #000;
