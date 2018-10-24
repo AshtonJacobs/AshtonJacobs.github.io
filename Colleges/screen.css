@@ -125,8 +125,7 @@ b {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  height: 800px;
-  padding: 0%
+  height: 100px;
 }
 
 .flex-child {
@@ -137,8 +136,8 @@ b {
   flex:  1 1 auto;
   border: 3px solid #008080;
   border-radius: 10px;
-  width: 504px;
-  height: 776px;
+  width: 525px;
+  height: 100px;
 }
 
 /*End Test */
