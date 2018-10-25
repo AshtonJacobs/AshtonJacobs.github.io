@@ -36,10 +36,6 @@ h1 {
    padding: 18px 0 18px 0;
    margin: 0 0 10px 0;
 }
-h2 {
-  font-size: 15pt;
-  font-weight: bold;
-}
 h1 span{
    border: 4px dashed #008080;
    padding: 10px;
@@ -47,6 +43,9 @@ h1 span{
 p {
    padding: 0;
    margin: 0;
+}
+b {
+  font-weight: bold
 }
 li a {
   display: block;
@@ -75,6 +74,7 @@ ul .navigation{
   height: 100%; 
   overflow: auto;
 }
+
 .img-circle {
    border: 3px solid white;
    border-radius: 50%;
@@ -111,39 +111,6 @@ li {
    margin-bottom: 15px;
    font-weight: bold;
 }
-b {
-  font-weight: bold;
-}
-
-
-
-/* Test */
-
-.flex {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  height: 345px;
-}
-
-.flex-child {
-  -webkit-box-flex: 1 1 auto;
-  -moz-box-flex:  1 1 auto;
-  -webkit-flex:  1 1 auto;
-  -ms-flex:  1 1 auto;
-  flex:  1 1 auto;
-  border: 3px solid #008080;
-  border-radius: 10px;
-  width: 504px;
-  height: 310px;
-}
-
-/*End Test */
-
-
-
 
 .skills {
    list-style:square;
